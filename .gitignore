@@ -1,0 +1,94 @@
+# Ignore object files and kernel modules
+*.o
+*.ko
+*.mod
+*.mod.c
+*.symvers
+*.order
+
+# Ignore temporary files
+*~
+*.tmp
+*.swp
+*.bak
+
+# Ignore build directories
+/arch/*/boot
+/arch/*/kernel
+/block
+/certs
+/crypto
+/Documentation
+/drivers
+/firmware
+/fs
+/include/config
+/init
+/ipc
+/kernel
+/lib
+/net
+/mm
+/scripts
+/security
+/sound
+/tools
+/usr
+/vdso
+/vmlinux
+/vmlinux.*
+/System.map
+/*.dtb
+
+# Ignore configuration files and logs
+.config
+.config.old
+.config.cmd
+/modules.order
+/Module.symvers
+/vmlinux*
+/*.dwo
+
+# Ignore cscope and gtags files
+cscope.*
+GTAGS
+GRTAGS
+GPATH
+
+# Ignore tags
+tags
+TAGS
+
+# Ignore patch files
+*.patch
+
+# Ignore generated headers
+*.cmd
+*.d
+*.dt.yaml
+*.dtb.dts
+
+# Ignore debug symbols and dump files
+*.dwo
+*.lst
+*.su
+*.bb
+*.bbg
+*.mod.c
+*.cfi
+*.gdb
+
+# Ignore other build artifacts
+*.elf
+*.i
+*.s
+*.S
+
+# Ignore coverage files (if using gcov)
+*.gcda
+*.gcno
+*.gcov
+
+# Ignore KBuild output directories
+/.*.cmd
+/.tmp_versions/
